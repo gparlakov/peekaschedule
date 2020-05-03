@@ -1,7 +1,7 @@
 exports.config = {
   projectRoot: "./src",
   projectName: "peekaschedule",
-  outDir: './dist/static',
+  outDir: './docs',
   routes: {
     '/blog/:slug': {
       type: 'contentFolder',
